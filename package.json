@@ -1,0 +1,21 @@
+{
+  "name": "swaggerconv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "convertSwaggerToOpenAPI.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "swagger-ui-express": "^5.0.1",
+    "url": "^0.11.4"
+  }
+}
